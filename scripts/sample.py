@@ -21,6 +21,12 @@ from p_tqdm import p_map
 
 import os
 
+import warnings
+# Suppress all FutureWarnings and UserWarnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
+
+
 chemical_symbols = [
     # 0
     'X',

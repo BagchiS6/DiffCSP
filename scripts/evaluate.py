@@ -19,6 +19,12 @@ import copy
 
 import numpy as np
 
+import warnings
+# Suppress all FutureWarnings and UserWarnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
+
+
 
 def diffusion(loader, model, num_evals, step_lr = 1e-5):
 
