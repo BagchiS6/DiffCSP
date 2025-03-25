@@ -18,6 +18,11 @@ from pytorch_lightning.callbacks import (
 from pytorch_lightning.loggers import WandbLogger
 
 from diffcsp.common.utils import log_hyperparameters, PROJECT_ROOT
+import warnings
+
+# Suppress all FutureWarnings and UserWarnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=UserWarning)
 
 import wandb
 

@@ -165,3 +165,8 @@ wandb/
 runs/
 clean/
 diffcsp/prop_models/.DS_Store
+.DS_Store
+conf/.DS_Store
+conf/model/.DS_Store
+data/.DS_Store
+diffcsp/.DS_Store
