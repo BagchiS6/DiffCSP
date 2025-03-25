@@ -164,3 +164,4 @@ singlerun/
 wandb/
 runs/
 clean/
+diffcsp/prop_models/.DS_Store
